@@ -1,0 +1,343 @@
+<html>
+
+<head>
+
+    <title>Rasik Maharjan - Portfolio</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #121212;
+            color: white;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 7%;
+            background-color: #121212;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 15px;
+        }
+
+        nav a:hover {
+            color: #c084fc;
+        }
+
+
+
+        .home {
+            padding: 100px 7%;
+            background: linear-gradient(to right, #121212, #241235);
+        }
+
+        .text {
+            width: 70%;
+        }
+
+        .text h3 {
+            color: #c084fc;
+            font-size: 25px;
+        }
+
+        .text h1 {
+            color: white;
+            font-size: 55px;
+            margin: 10px 0;
+        }
+
+        .text p {
+            color: #dddddd;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        .photo {
+            width: 35%;
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 25px;
+        }
+
+        .photo img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+
+        section {
+            padding: 60px 7%;
+            background-color: #121212;
+        }
+
+        section h2 {
+            color: #c084fc;
+            font-size: 35px;
+        }
+
+        section p {
+            color: #dddddd;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+
+        .box {
+            background-color: #241b2e;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+
+        .box h3 {
+            color: #c084fc;
+        }
+
+
+
+        .skills {
+            display: flex;
+        }
+
+        .skill {
+            background-color: #241b2e;
+            color: white;
+            padding: 20px;
+            margin-right: 15px;
+            width: 150px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+
+        .contact {
+            background-color: #1b1024;
+        }
+
+        .contact a {
+            color: #c084fc;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <nav>
+
+        <div class="logo">
+            RASIK
+        </div>
+
+        <div>
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#goals">Goals</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </nav>
+
+
+
+
+    <div class="home" id="home">
+
+        <div class="text">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>
+                Rasik<br>
+                Maharjan
+            </h1>
+
+            <p>
+               I am a Grade 11 student currently studying at Nisarga Batika High School.
+               I am a curious and enthusiastic learner who enjoys exploring new ideas 
+               and gaining knowledge from different experiences. I have a strong interest
+               in new technology, sports, photography, and learning new things. I believe
+               that every new experience gives me an opportunity to improve myself and develop 
+               skills that will be useful in the future.
+            </p>
+
+        </div>
+
+           <div class="photo">
+           <img src="myimage.jpg" alt="My Photo">
+        </div>
+    </div>
+
+
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am someone who enjoys trying new things and learning from the people and
+            experiences around me. Technology interests me because it is constantly changing 
+            and creating new possibilities. I also enjoy sports because they teach me discipline, 
+            teamwork, and determination. Photography is another interest of mine, as it 
+            allows me to capture moments and look at things from a different perspective. 
+            Along with my studies, I always try to develop myself by learning new skills.
+        </p>
+
+    </section>
+
+
+
+
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <div class="box">
+
+            <h3>Little Angels School</h3>
+
+            <p>
+                completed school 
+            </p>
+
+        </div>
+
+
+        <div class="box">
+
+            <h3>SEE - 2082 BS</h3>
+
+            <p>
+                passed SEE with a GPA of 3.86
+            </p>
+
+        </div>
+
+
+        <div class="box">
+
+            <h3>Nisarga Batika High School</h3>
+
+            <p>
+                currently studying 
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section id="skills">
+
+        <h2>Skills & Activities</h2>
+
+        <div class="skills">
+
+            <div class="skill">
+                Problem Solving
+            </div>
+
+            <div class="skill">
+                Photography
+            </div>
+
+            <div class="skill">
+                Teamwork
+            </div>
+
+        </div>
+
+
+        <p>
+           Over the years, I have developed several skills that I consider 
+           important for both my academic and personal growth. Problem 
+           solving helps me approach difficult situations and think of 
+           possible solutions. I am also interested in photography, which 
+           has helped me become more creative and observant. Another important
+           skill I have developed is teamwork, as working with others teaches 
+           me how to communicate, cooperate, and contribute towards a common goal.
+        </p>
+
+    </section>
+
+
+
+
+    <section id="goals">
+
+        <h2>My Goals</h2>
+
+        <p>
+           My main goal for the future is to become a successful 
+           engineer. I am interested in a career where I can use 
+           my knowledge, creativity, and problem-solving abilities 
+           to create useful things and contribute to society. 
+           However, becoming successful is not only about choosing a 
+           career. I also want to continue learning different skills 
+           throughout my life, explore new opportunities, and learn 
+           from both my successes and failures
+        </p>
+
+    </section>
+
+
+
+
+    <section class="contact" id="contact">
+
+        <h2>My Contacts</h2>
+
+        <p>
+            <b>Phone:</b> 9747210389
+        </p>
+
+        <p>
+            <b>Email:</b> rasikmhzn@gmail.com
+        </p>
+
+        <p>
+            <b>Instagram:</b>
+
+            <a href="https://www.instagram.com/rasik_mhzn1/"
+               target="_blank">
+                rasik_mhzn1
+            </a>
+
+        </p>
+
+    </section>
+
+
+</body>
+
+</html>
