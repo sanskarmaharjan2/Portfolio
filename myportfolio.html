@@ -11,7 +11,7 @@
         body {
             margin: 0;
             font-family: Arial;
-            background-color: #121212;
+            background-color: #12090c;
             color: white;
         }
 
@@ -23,7 +23,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 20px 7%;
-            background-color: #121212;
+            background-color: #12090c;
         }
 
         .logo {
@@ -39,15 +39,23 @@
         }
 
         nav a:hover {
-            color: #ff967b;
+            color: #d98a9a;
         }
 
 
         /* HOME */
 
         .home {
-            padding: 100px 7%;
-            background: linear-gradient(to right, #121212, #241235);
+            min-height: 600px;
+            padding: 70px 7%;
+
+            background: linear-gradient(
+                to right,
+                #12090c 0%,
+                #241017 45%,
+                #4a1525 75%,
+                #681c32 100%
+            );
 
             display: flex;
             justify-content: space-between;
@@ -60,7 +68,7 @@
         }
 
         .text h3 {
-            color: #ff967b;
+            color: #d98a9a;
             font-size: 25px;
         }
 
@@ -77,39 +85,35 @@
         }
 
 
-        /* 16:9 PHOTO */
+        /* RIGHT SIDE PHOTO */
 
         .photo {
             width: 40%;
-            background-color: #f5f5f5;
-            padding: 15px;
-            border-radius: 25px;
-            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: transparent;
         }
 
         .photo img {
             display: block;
-
             width: 100%;
-
-            /* EXACT 16:9 RATIO */
-            aspect-ratio: 16 / 9;
-
-            object-fit: cover;
-
-            border-radius: 20px;
+            height: auto;
+            max-width: 500px;
+            border-radius: 25px;
+            object-fit: contain;
         }
 
 
-        /* GENERAL SECTIONS */
+        /* SECTIONS */
 
         section {
             padding: 60px 7%;
-            background-color: #121212;
+            background-color: #12090c;
         }
 
         section h2 {
-            color: #ff967b;
+            color: #d98a9a;
             font-size: 35px;
         }
 
@@ -120,17 +124,23 @@
         }
 
 
-        /* EDUCATION */
+        /* EDUCATION BOXES */
 
         .box {
-            background-color: #241b2e;
+            background: linear-gradient(
+                135deg,
+                #291019,
+                #401522
+            );
+
             padding: 20px;
             margin: 15px 0;
             border-radius: 10px;
+            border-left: 4px solid #8f304b;
         }
 
         .box h3 {
-            color: #ff967b;
+            color: #d98a9a;
         }
 
 
@@ -143,27 +153,38 @@
         }
 
         .skill {
-            background-color: #241b2e;
+            background: linear-gradient(
+                135deg,
+                #291019,
+                #4a1525
+            );
+
             color: white;
             padding: 20px;
             width: 150px;
             text-align: center;
             border-radius: 10px;
+            border: 1px solid #6b2639;
         }
 
 
         /* CONTACT */
 
         .contact {
-            background-color: #1b1024;
+            background: linear-gradient(
+                to right,
+                #1b0b10,
+                #35121c
+            );
         }
 
         .contact a {
-            color: #ff967b;
+            color: #d98a9a;
             text-decoration: none;
         }
 
         .contact a:hover {
+            color: #f0a7b6;
             text-decoration: underline;
         }
 
@@ -197,6 +218,11 @@
 
             .photo {
                 width: 90%;
+            }
+
+            .photo img {
+                width: 100%;
+                max-width: 450px;
             }
 
         }
@@ -240,6 +266,7 @@
 
     <div class="home" id="home">
 
+
         <div class="text">
 
             <h3>Hello, I'm</h3>
@@ -262,13 +289,13 @@
         </div>
 
 
-        <!-- RIGHT SIDE 16:9 PHOTO -->
+        <!-- PHOTO -->
 
         <div class="photo">
 
             <img
                 src="snap.jpeg"
-                alt="My Photo"
+                alt="Sanskar Maharjan"
             >
 
         </div>
@@ -285,19 +312,17 @@
         </h2>
 
         <p>
-            I’m Sanskar Maharjan, born in March 2010, and I’ve
-            just completed Grade 10 at The Excelsior School.
-            Currently, I’m studying in Grade 11 at Nisarga
-            Batika High School, where I’m eager to take on
-            new academic challenges. I enjoy staying active
-            by playing football, which helps me build teamwork
-            and discipline, and I also love playing online games
-            that sharpen my focus and strategy. Alongside these,
-            I have a deep interest in solving mathematical
-            equations, as they challenge my logical thinking
-            and problem-solving skills. In the near future,
-            I aspire to become a successful person, not just
-            in my career but also in my personal growth and
+            I’m Sanskar Maharjan, born in March 2010, and I’ve just
+            completed Grade 10 at The Excelsior School. Currently,
+            I’m studying in Grade 11 at Nisarga Batika High School,
+            where I’m eager to take on new academic challenges. I enjoy
+            staying active by playing football, which helps me build
+            teamwork and discipline, and I also love playing online games
+            that sharpen my focus and strategy. Alongside these, I have
+            a deep interest in solving mathematical equations, as they
+            challenge my logical thinking and problem-solving skills.
+            In the near future, I aspire to become a successful person,
+            not just in my career but also in my personal growth and
             contributions to society.
         </p>
 
@@ -385,25 +410,22 @@
 
 
         <p>
-            Over the years, I have cultivated a set of skills
-            that play a vital role in both my academic journey
-            and personal development. Problem solving has
-            trained me to face challenges with a clear mind,
-            analyze situations carefully, and come up with
-            practical solutions instead of giving up easily.
-            My interest in photography has added a creative
-            dimension to my life, teaching me to observe the
-            world more closely, appreciate small details, and
-            express ideas through visual storytelling. At the
-            same time, teamwork has been essential in helping
-            me learn how to communicate effectively, respect
-            different perspectives, and work collaboratively
-            toward shared goals, whether in class projects,
-            sports, or other group activities. Together, these
-            skills have not only improved my confidence and
-            adaptability but also prepared me to handle future
-            responsibilities with a balanced mix of logic,
-            creativity, and cooperation.
+            Over the years, I have cultivated a set of skills that play
+            a vital role in both my academic journey and personal
+            development. Problem solving has trained me to face challenges
+            with a clear mind, analyze situations carefully, and come up
+            with practical solutions instead of giving up easily. My
+            interest in photography has added a creative dimension to my
+            life, teaching me to observe the world more closely, appreciate
+            small details, and express ideas through visual storytelling.
+            At the same time, teamwork has been essential in helping me
+            learn how to communicate effectively, respect different
+            perspectives, and work collaboratively toward shared goals,
+            whether in class projects, sports, or other group activities.
+            Together, these skills have not only improved my confidence
+            and adaptability but also prepared me to handle future
+            responsibilities with a balanced mix of logic, creativity,
+            and cooperation.
         </p>
 
     </section>
@@ -418,17 +440,14 @@
         </h2>
 
         <p>
-            My goal is to become a successful person and a
-            skilled engineer who makes a meaningful impact.
-            I aim to build a strong foundation in mathematics
-            and science, develop practical problem-solving
-            abilities, and stay curious about how things work.
-            Along the way, I want to grow not only in my career
-            but also as a responsible, ethical, and lifelong
-            learner. By combining technical expertise with
-            creativity and teamwork, I hope to contribute to
-            innovative projects that solve real-world challenges
-            and improve people’s lives.
+            My goal is to become a successful person and a skilled engineer
+            who makes a meaningful impact. I aim to build a strong foundation
+            in mathematics and science, develop practical problem-solving
+            abilities, and stay curious about how things work. Along the way,
+            I want to grow not only in my career but also as a responsible,
+            ethical, and lifelong learner. By combining technical expertise
+            with creativity and teamwork, I hope to contribute to innovative
+            projects that solve real-world challenges and improve people’s lives.
         </p>
 
     </section>
